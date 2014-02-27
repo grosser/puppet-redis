@@ -16,7 +16,7 @@ class redis::params {
       $executable  = "${boxen::config::home}/homebrew/bin/redis-server"
 
       $package     = 'boxen/brews/redis'
-      $version     = '2.6.9-boxen1'
+      $version     = '2.8.6-boxen1'
 
       $servicename = 'dev.redis'
     }
